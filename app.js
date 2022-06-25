@@ -104,7 +104,7 @@ function showNumber() {
   text.className = "text";
   text.innerHTML = `${counter}`;
   if (counter == 0) {
-    counter++
+    counter++;
   }
   container.appendChild(text);
 }
