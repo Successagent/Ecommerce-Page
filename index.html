@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="container header">
+      <div class="menu-btn nav-toggle" data-visible="false"></div>
+      <div class="header-h1">
+        <h1>sneakers</h1>
+      </div>
+      <nav>
+        <ul class="list-menu" data-visible="false">
+          <li><a href="#collections">Collections</a></li>
+          <li><a href="#men">Men</a></li>
+          <li><a href="#women">Women</a></li>
+          <li><a href="#contacts">Contacts</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+      </nav>
+      <div class="header-logos">
+        <img class="cart" src="./assets/icon-cart.svg" alt="" />
+        <img  data-visible="true" src="./assets/image-avatar.png" alt="" />
+      </div>
+    </header>
+    <main>
+      <section class="dont-show-on-desk">
+        <div class="prev btn">
+          <img src="./assets/icon-previous.svg" alt="" />
+        </div>
+        <div class="next btn">
+          <img src="./assets/icon-next.svg" alt="" />
+        </div>
+        <div class="slide">
+          <div class="items show">
+            <img src="./assets/image-product-1.jpg" alt="" />
+          </div>
+          <div class="items">
+            <img src="./assets/image-product-2.jpg" alt="" />
+          </div>
+          <div class="items">
+            <img src="./assets/image-product-3.jpg" alt="" />
+          </div>
+          <div class="items">
+            <img src="./assets/image-product-4.jpg" alt="" />
+          </div>
+        </div>
+        <div class="text-section">
+          <h2>Sneaker Company</h2>
+          <h1>fall limited edition sneakers</h1>
+          <p>
+            These low-profile sneakers are your perfect casual wear companion.
+            Featuring a durable rubber outer sole, they’ll withstand everything
+            the weather can offer.
+          </p>
+        </div>
+        <div class="price">
+          <h1>$125.00</h1>
+          <h2>50%</h2>
+          <p>$250.00</p>
+        </div>
+        <div class="iteration iteration-2>
+          <h2 class="minus">-</h2>
+          <h1 class="zero">0</h1>
+          <h2 class="plus">+</h2>
+        </div>
+        <div class="iteration" id="orange">
+          <img src="./assets/icon-cart.svg" alt="" />
+          <h2>Add to cart</h2>
+        </div>
+      </div>
+      </section>
+      <hr />
+      <section class="dont-show-on-mob flex container">
+        <div class="part-one">
+          <div class="logo-con">
+            <div class="contents show-content" id="tab-1-content">
+              <img src="./assets/image-product-1.jpg" alt="" />
+            </div>
+            <div class="contents" id="tab-2-content">
+              <img src="./assets/image-product-2.jpg" alt="" />
+            </div>
+            <div class="contents" id="tab-3-content">
+              <img src="./assets/image-product-3.jpg" alt="" />
+            </div>
+            <div class="contents" id="tab-4-content">
+              <img src="./assets/image-product-4.jpg" alt="" />
+            </div>
+          </div>
+          <div class="tab-con">
+            <img
+              class="tabs gray-bg"
+              id="tab-1"
+              src="./assets/image-product-1-thumbnail.jpg"
+              alt=""
+            />
+            <img
+              class="tabs"
+              id="tab-2"
+              src="./assets/image-product-2-thumbnail.jpg"
+              alt=""
+            />
+            <img
+              class="tabs"
+              id="tab-3"
+              src="./assets/image-product-3-thumbnail.jpg"
+              alt=""
+            />
+            <img
+              class="tabs"
+              id="tab-4"
+              src="./assets/image-product-4-thumbnail.jpg"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="part-two">
+          <div class="part-two-text">
+            <h2>Sneaker Company</h2>
+            <h1>fall limited edition sneakers</h1>
+            <p>
+              These low-profile sneakers are your perfect casual wear companion.
+              Featuring a durable rubber outer sole, they’ll withstand
+              everything the weather can offer.
+            </p>
+          </div>
+          <div class="part-two-price">
+            <h1>$125.00</h1>
+            <h2>50%</h2>
+          </div>
+          <h2 id="gray">$250.00</h2>
+          <div class="flex-2">
+            <div class="iteration">
+              <h2 class="minus-2">-</h2>
+              <h1 class="zero-2">0</h1>
+              <h2 class="plus-2">+</h2>
+            </div>
+            <div class="iteration orange-2" id="orange">
+              <img src="./assets/icon-cart.svg" alt="" />
+              <h2>Add to cart</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
